@@ -1,0 +1,203 @@
+body{
+    background-color: rgb(60,132,196);
+}
+div {
+    display: block;
+}
+.main-header{
+    background-image: linear-gradient(45deg, rgba(129,138,146,255) 50%, rgb(156,156,156) 55%, rgb(60,132,196) 60%, rgb(4,84,180) 65%);
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    right:0px;
+    height: 80px;  
+}
+header{
+    position: sticky;
+    display: block;
+    border: dotted white;
+}
+.header-info{
+    color: rgb(139, 12, 12);
+    padding: 0px;
+    position: absolute;
+    font-size: 32px;
+    left: 34px;
+    text-decoration: none;
+}
+.header-info2{
+    color: rgb(139, 12, 12);
+    padding: 0px;
+    position: absolute;
+    font-size: 32px;
+    left: 34px;
+    text-decoration: none;
+    margin-top: 22px;
+}
+main{
+    margin-top: 60px;
+}
+.font-l{
+    color: rgb(139, 12, 12);
+    font-size: 20px;
+    text-decoration: none;
+}
+.box{
+    background-color: whitesmoke;
+    padding: 16px;
+    border: 0.5px solid black;
+    text-align: center;
+    margin: 30px;
+    width: 130px;
+    border-radius: 40%;
+    justify-content: center;
+}
+.menu-logo{
+    width: 100px;
+    height: 100px;
+}
+.jumbotron {
+    background-image: url("../assets/images/jumbotron.jpg");
+    background-size: cover;
+    padding: 30px;
+    margin-bottom: 20px;
+    border : 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1500px;
+    height: 900px;
+}
+.jumbotron2 {
+    background-image: url("../assets/images/use.jpg");
+    background-size: cover;
+    padding: 30px;
+    margin-bottom: 20px;
+    border : 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1500px;
+    height: 900px;
+}
+.jumbotron h1 {
+    font-size: 120px;
+    font-weight: bold;
+    margin-top: 00px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+.jumbotron2 h1 {
+    font-size: 140px;
+    font-weight: bold;
+    margin-top: 00px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    text-align: right;
+}
+.jumbotron p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.container{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.suruh{
+    font-size: 67px;
+    text-align: center;
+    color: #ddd;
+}
+.fa-instagram-square, .fa-twitter-square, .fa-facebook-square, .fa-envelope{
+    padding: 5px;
+    font-size: small;
+    color: white;
+    width: 10px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+.center-footer{
+    margin: 0 20px;
+}
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.info-center{
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid white;
+    color: rgb(224, 251, 252);
+    font-size: larger;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    color: rgb(224, 251, 252);
+    text-align: center;
+    font-size: 12px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.footer1{
+    background-color: black;
+    padding: 10px;
+    color: rgb(224, 251, 252);
+    text-align: center;
+    font-size: 12px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+#drop-area{
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+#img-view{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px; 
+   border: 2px dashed #bbb5ff;
+   background: #f7f8ff;
+   background-position: center;
+   background-size: cover;
+}
+#img-view img{
+    width: 100px;
+    margin-top: 25px;
+}
+#img-view span{
+    display: block;
+    font-size: 12px;
+    color: #777;
+    margin-top: 15px;
+}
